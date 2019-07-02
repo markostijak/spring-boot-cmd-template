@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: 'Application name'
+
+---
+# production properties
+spring:
+  profiles: prod
+
+---
+# dev properties
+spring:
+  profiles: dev
+
+---
+# test properties
+spring:
+  profiles: test
