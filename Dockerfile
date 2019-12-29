@@ -1,4 +1,4 @@
-FROM openjdk:11.0.3-jre-slim-stretch
+FROM openjdk:13.0.1
 
 ARG JAR
 
