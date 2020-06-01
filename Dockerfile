@@ -1,4 +1,4 @@
-FROM openjdk:13.0.1
+FROM openjdk:14.0.1
 
 ARG JAR
 
