@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <spring-boot.version>2.3.3.RELEASE</spring-boot.version>
+        <spring-boot.version>2.4.0</spring-boot.version>
     </properties>
 
     <dependencyManagement>
@@ -77,9 +77,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>14</source>
-                    <target>14</target>
-                    <release>14</release>
+                    <source>15</source>
+                    <target>15</target>
+                    <release>15</release>
                     <encoding>UTF-8</encoding>
                     <compilerArgs>
                         <arg>--enable-preview</arg>
